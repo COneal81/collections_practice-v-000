@@ -52,7 +52,7 @@ end
   
 def add_s(array)
   array.collect {|word|} 
-   if array == word[1]
+   if array[1] == word
      word
    else 
      word + "s"
