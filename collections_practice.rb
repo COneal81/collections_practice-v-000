@@ -32,9 +32,8 @@ end
   
 
 def kesha_maker(array)
-  i = 0 
-  while i < array.length
-  i = i+1
+  array.each do |word|
+    word[3] = "$"
 end
 end
   
