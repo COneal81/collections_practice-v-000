@@ -36,6 +36,7 @@ def kesha_maker(array)
   while i < array.length
   i = i+1
 end
+end
   
   
   
