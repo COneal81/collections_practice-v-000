@@ -51,8 +51,9 @@ end
   
   
 def add_s(array)
-  array.each_with_index.collect {|array|} 
-   "#{array}s"
+  array.each_with_index.collect {|word|} 
+   if array == word[1]
+     
 end  
   
   
