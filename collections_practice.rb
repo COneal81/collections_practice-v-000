@@ -38,7 +38,8 @@ end
 end
   
 def find_a(array)
-    array.detect do |word| array.start_with?("a")
+    array.detect do |array| 
+      array.start_with?("a")
   end
 end
   
