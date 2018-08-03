@@ -22,4 +22,7 @@ def swap_elements(array)
   array
 end  
 
+def reverse_array()
+  
+end
   
