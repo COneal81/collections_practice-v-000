@@ -6,14 +6,14 @@ end
 
 
 def sort_array_desc(array)
-  array.sort do |a, b|
-    b<=>a 
+  array.sort do |a, b| array
+    b<=>a
   end
 end
 
 def sort_array_char_count(array)
-    array.sort do |a, b| array
-    b<=>a
+    array.sort do |left, right|
+    left.length<=>right.length
   end
 end
 
