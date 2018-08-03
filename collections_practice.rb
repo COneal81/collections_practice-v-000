@@ -12,7 +12,8 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-    array.downcase.sort do |a, b| array
+  
+    array.sort do |a, b| array
     a<=>b
   end
 end
