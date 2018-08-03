@@ -17,5 +17,9 @@ def sort_array_char_count(array)
   end
 end
 
-def 
+def swap_elements(array)
+  array.sort do | |
+
+  end  
+end
   
