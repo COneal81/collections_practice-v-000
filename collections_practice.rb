@@ -38,7 +38,7 @@ end
 end
   
 def find_a(array)
-    array.select("a") do |word| array
+    array.each("a") do |word| array
   end
 end
   
