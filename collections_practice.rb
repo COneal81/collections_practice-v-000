@@ -51,7 +51,7 @@ end
   
   
 def add_s(array)
-  array.
+  array.each_with_index.collect {|element, index|} element("s")
 end  
   
   
